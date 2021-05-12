@@ -11,13 +11,13 @@ It is designed to take .xyz file exports from MacMolPlt and convert the pertinen
 
 1) Place any number of .xyz files in the 'input' folder.
 
-2)	>>> python Final_Project_Grifasi.py
+2)	> python Final_Project_Grifasi.py
 
-	# foobar.pluralize('word') # returns 'words'
-	# foobar.pluralize('goose') # returns 'geese'
-	# foobar.singularize('phenomena') # returns 'phenomenon'
+	>> 'system_name' replaces _X_ in MakeEFP_Template.txt.
+	>> 'system_name' replaces _Y_ in MakeEFP_Template.txt.
+	>> 'coords' replaces _Z_ in MakeEFP_Template.txt.
 
-	>>> output
+	> output
 
 3) Check 'output' folder for .inp files for GAMESS integration.
 
