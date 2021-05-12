@@ -25,7 +25,7 @@ It is designed to take .xyz file exports from MacMolPlt and convert the pertinen
 
 	>>> output
 
-4) Check 'output' folder for .inp files for GAMESS integration.
+4) Check 'output' folder for .inp files.
 
 ## Contributing
 
