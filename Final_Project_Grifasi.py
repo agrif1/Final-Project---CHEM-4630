@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[25]:
-
-
 #
 # 1) Necessary modules to import + info referenced later.
 #
@@ -38,12 +32,12 @@ Br = '35'
 #
 # 2) Mapping files for data extraction.
 #
-xyz_data = os.path.abspath ('C:\\Users\\agrif\\Desktop\\Research\\EFP\\Benchmark References\\Ref #2 xyz\\*.xyz')
+xyz_data = os.path.abspath ('input\\*.xyz')
 data_files = glob.glob(xyz_data)
 #
 # 3) Mapping template EFP file.
 #
-makefp_template = os.path.abspath ('C:\\Users\\agrif\\Desktop\\Research\\EFP\\MakeEFP_Template.txt')
+makefp_template = os.path.abspath ('MakeEFP_Template.txt')
 #
 # 4) Dividing up lines in xyz files for extraction + manipulation.
 #    - 'system_name'  =    name of molecule
@@ -120,7 +114,7 @@ for file in data_files:
 #    - 'system_name' is the full molecule name, to be put in place of _Y_.
 #    - 'coords' has the coordinate data in it, to be put in place of _Z_.
 #
-    with open("{}_EFP.inp".format(system_name), "w") as f:
+    with open("output\\{}_EFP.inp".format(system_name), "w") as f:
         makefp_file = open(makefp_template, "r")
         new_file = ""
         for line in makefp_file:
