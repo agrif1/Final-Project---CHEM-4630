@@ -18,7 +18,9 @@ It is designed to take .xyz file exports from MacMolPlt and convert the pertinen
 3) The following occurs.
 
 	>> 'system_name' replaces _X_ in MakeEFP_Template.txt.
+
 	>> 'system_name' replaces _Y_ in MakeEFP_Template.txt.
+
 	>> 'coords' replaces _Z_ in MakeEFP_Template.txt.
 
 	>>> output
